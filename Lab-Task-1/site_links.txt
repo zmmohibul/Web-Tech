@@ -3,6 +3,6 @@ Webiste link of Forms Task:
 https://zmmohibul.github.io/Web-Tech/Lab-Task-1/forms
 
 
-Whirlpool Galaxy site link:
+Whirlpool Galaxy github site link:
 
 https://zmmohibul.github.io/Web-Tech/Lab-Task-1/whirlpool-galaxy/index.html
