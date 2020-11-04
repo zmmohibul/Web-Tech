@@ -8,8 +8,8 @@
 <body>
     
     <div id="icon">
-        <a href="index.php" style="margin: 0"><i class="fab fa-xing fa-7x"></i></a>
-        <a href="index.php" style="margin: 0"><p>Company</p></a>
+        <a href="../index.php" style="margin: 0"><i class="fab fa-xing fa-7x"></i></a>
+        <a href="../index.php" style="margin: 0"><p>Company</p></a>
     </div>
 	<nav>
         <a href="dashboard.php">Bob</a>
