@@ -1,0 +1,81 @@
+
+i {
+    color: limegreen;
+}
+
+div , p {
+    display: inline-block;
+}
+
+p {
+    font-size: 120%;
+    color: #757678;
+}
+
+nav {
+    width: 80%;
+    display: inline-block;
+    /* float: right; */
+    text-align: right;
+    margin: 30px;
+}
+
+a {
+    margin-right: 50px;
+
+    text-decoration: none;
+}   
+
+h1 {
+    margin: 50px 20px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+fieldset {
+    margin-bottom: 50px;
+    padding: 20px 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.date {
+    float: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+#registration {
+    display: block;
+    width: 20%;
+    margin: 50px auto;
+}
+
+div#login {
+    display: block;
+    width: 20%;
+    margin: 50px auto;
+}
+
+div#user-sidebar {
+    /* display: inline-block; */
+    width: 12%;
+    border-right: 2px solid black;
+}
+
+div.userMain {
+    /* display: inline-block; */
+    width: 85%;
+    float: right;
+}
