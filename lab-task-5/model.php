@@ -81,4 +81,17 @@
         return true;
     }
 
+    function searchProduct($valueToSearch) {
+        $conn = db_conn();
+        $searchQuery = "SELECT * FROM `product` WHERE CONCAT(`id`, `name`, `buying_price`, `selling_price`) LIKE ?";
+        try{
+            $stmt = $conn->prepare($searchQuery);
+            $stmt->execute(["%$valueToSearch%"]);
+        }catch(PDOException $e){
+            echo $e->getMessage();
+        }
+        $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        return $rows;
+    }
+
  ?>
