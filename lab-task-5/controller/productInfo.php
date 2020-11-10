@@ -10,3 +10,8 @@ function fetchProduct($id){
 	return showProduct($id);
 
 }
+
+function seekProduct($valueToSearch) {
+	return searchProduct($valueToSearch);
+}
+?>
