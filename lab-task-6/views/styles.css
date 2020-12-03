@@ -1,0 +1,24 @@
+* {
+    font-size: 110%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+th, td {
+    padding: 15px;
+    text-align: center;    
+}
+
+.right {
+    float: right;
+}
+
+.block-display {
+    display: block;
+}
+
+.red {
+    color: crimson;
+}
